@@ -79,6 +79,12 @@
     </style>
 </head>
 <body>
+    <script>
+        const redirect = window.top.location.hostname.includes("lostinmaze")
+        if (redirect) { 
+            window.top.location.replace("https://storage.googleapis.com/jblate/lostinmaze/home.html") 
+        }
+    </script>
     <br>
     <img src="/images/castle-translucid.png" height="309" alt="logo"><br>
     <header>Feudal Code is a software company focused on internet products.</header><br>
@@ -101,7 +107,6 @@
                 free online sprite editor
             </p>
         </div>
-    </div>
         <div class="product">
             <a href="https://webasyouwish.com" target="_blank">
                 <img src="/images/icon-wayw.png" alt="Web As You Wish - free online website editor">
